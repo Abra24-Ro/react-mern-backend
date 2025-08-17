@@ -36,7 +36,7 @@ app.get(/^(?!\/api).*/, (req, res) => {
 
 
 // Puerto
-const port = process.env.PORT || 4000;
+const port = process.env.PORT ;
 
 // Escuchar peticiones
 app.listen(port, () => {
